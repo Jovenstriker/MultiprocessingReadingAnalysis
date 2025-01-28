@@ -20,7 +20,7 @@ I already had the time-series data of photoplethysmography sensors but I wanted 
 
 MultiprocessingTestCase.ipynb - Jupyter notebook to simulate sensor readings
 
-1100.txt - Pre-collected photoplethysmography data
+1100.txt - Pre-collected photoplethysmography data, 100 hertz
 
 toConvolve.txt - Kernel of "good peak"
 

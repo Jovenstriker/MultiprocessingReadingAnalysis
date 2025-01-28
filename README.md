@@ -2,11 +2,12 @@ Multiprocessing code to simulate real-time photoplethysmography sensor readings 
 
 ## Background
 
+My data had two photoplethysmography channels, one device on the big toe and one on the index finger. I wanted to have 10 good peaks where both toe data and finger data are "good quality."
+
 Photoplethysmography sensors give you blood pulse data, which have primary peak, dicrotic notch, and secondary peaks. It should be a consistent reading as we are recording pulses.
 
-However, motion artifacts can severly disrupt the quality of this data, making it unrecognizable to be useful.
+However, motion artifacts can severly disrupt the quality of this data, making it unrecognizable to be useful. The finger and toe data should be displaced a little by a phase shift because the sensors were located in different areas from the pulse-beating heart, but it should be a constant phase shift and the overall pulse shapes should be similar for both finger and toe.
 
-My data had two photoplethysmography channels, one device on the big toe and one on the index finger. I wanted to have 10 good peaks where both toe data and finger data are "good quality."
 
 ## Work done
 

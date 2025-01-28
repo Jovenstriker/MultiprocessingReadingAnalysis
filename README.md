@@ -15,3 +15,13 @@ I had a pulse kernel that I deemed of "good quality." I convolved it over the da
 I then utilized simple functions to remove outliers and find intervals where there were 10 consistent good peaks. The number of good peaks can be adjusted (10, 20, 5, 100).
 
 I already had the time-series data of photoplethysmography sensors but I wanted to mimic the sensor reading the data sequentially so I utilized multiprocessing for both the "reading" and to do real-time analysis. Real time analysis is more useful as when people are wearing photoplethysmography sensors for a while, you don't want the data to be inaccessible until after they take it off. This can be considered a batched real time analysis.
+
+## Files
+
+MultiprocessingTestCase.ipynb - Jupyter notebook to simulate sensor readings
+
+1100.txt - Pre-collected photoplethysmography data
+
+toConvolve.txt - Kernel of "good peak"
+
+
